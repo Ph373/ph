@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(116, 0, 0);
+    color: white;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: all .3s;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+p{
+    opacity: 0.7;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+
+    ul{
+        display: flex;
+        gap: 24px;
+        list-style-type: none;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255, 0.1);
+        padding: 16px 20px;
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+    }
+}
+
+.logotipoSite{
+    width: 60px;
+}
+
+.iconeBotao{
+    width: 60px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.seçãoUm{
+    background-image: url(assets/istockphoto-1440805858-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(119, 119, 119);
+        mix-blend-mode: color-dodge;
+    }
+
+    .conteudoPrincipal{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+
+       h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+       }
+
+       .divBotoes{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 16px;
+       }
+    }
+}
+
+.butaoPrimario{
+    background-color: rgb(255, 255, 255, 0.9);
+    gap: 12px;
+    padding: 6px 6px 6px 16px;
+
+    img{
+        width: 44px;
+    }
+}
+
+.butaoSecundario{
+    padding: 16px;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255, 0.9);
+        gap: 12px;
+        padding: 6px 6px 6px 16px;
+}
+
+.tituloSeçao{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.seçaoDois{
+    background-image: url(assets/istockphoto-1440805858-612x612.jpg);
+}
+
+.eletricCar{
+    width: 60px;
+}
+
+.sportsCar{
+    width: 60px;
+}
+
+.carCar{
+    width: 60px;
+}
+
+.seçaoDois{
+    align-items: center;
+}
+
+.divCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px 120px;
+}
+
+.card{
+    width: 32%;
+     padding: 32px 20px;
+
+     h3{
+        font-size: 24px;
+        font-weight: 500;
+        margin: 20px 0px 4px;
+     }
+}
+
+.branco{
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.divImagens{
+    display: flex;
+    margin: 52px 0px 80px;
+    gap: 8px .5%;
+
+    img{
+        width: 24.5%;
+        filter: saturate(0);
+        transition: all;
+
+        &:hover{
+            filter: saturate(1);
+        }
+    }
+
+    .jamilson{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .Alfredo{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .Inicio{
+        text-decoration: none;
+    }
+}
